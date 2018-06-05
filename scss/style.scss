@@ -15,13 +15,16 @@ body {
 }
 
 header {
-    height: 1000px;
+    padding-bottom: 34rem;
     background-image: url('../img/iPhone_bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     .row {
         width: 100%;
+    }
+    .nav_adaptive {
+        display: none;
     }
     .nav {
         padding-top: 3rem;
@@ -39,8 +42,8 @@ header {
                 content: '';
                 position: absolute;
                 background-image: url('../img/Apple\ Icon.png');
-                width: 23px;
-                height: 23px;
+                width: 52%;
+                height: 52%;
                 left: 9px;
                 background-size: contain;
                 background-repeat: no-repeat;
@@ -61,8 +64,8 @@ header {
         #hamb {
             z-index: 3;
             position: absolute;
-            width: 40px;
-            height: 40px;
+            width: 2rem;
+            height: 2rem;
             left: 0;
             top: 0;
             opacity: 0;
@@ -97,6 +100,9 @@ header {
             top: 10px;
         }
         .main-menu {
+            a:hover {
+                color: #ffffff;
+            }
             width: 5rem;
             position: absolute;
             top: 40px;
@@ -131,7 +137,7 @@ header {
         align-items: center;
     }
     .info {
-        width: 770px;
+        max-width: 770px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 140px;
@@ -154,6 +160,7 @@ header {
         height: 41px;
         text-align: center;
         line-height: 35px;
+        background-color: #f4f4f5;
         a {
             text-decoration: none;
             color: #000;
@@ -173,8 +180,11 @@ header {
 }
 
 #protect {
+    padding: 3rem 0;
     .time {
-        margin-top: 100px;
+        .wrapper {
+            margin-top: 3rem;
+        }
         span {
             font-size: 26px;
             display: block;
@@ -182,7 +192,7 @@ header {
         }
         p {
             font-size: 18px;
-            width: 500px;
+            width: 100%;
         }
     }
     .your_day {
@@ -190,7 +200,6 @@ header {
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        height: 1000px;
         .wrapper {
             margin-top: 17rem;
             h2 {
@@ -199,6 +208,7 @@ header {
             p {
                 font-size: 20px;
                 color: #8c8f94;
+                text-shadow: 2px 2px 2px white;
             }
             .buttons {
                 margin-top: 5rem;
@@ -239,7 +249,6 @@ header {
         }
     }
     .we_are {
-        height: 894px;
         background-image: url('../img/World\ Map.png');
         background-repeat: no-repeat;
         background-size: contain;
@@ -259,7 +268,7 @@ header {
 }
 
 #interface {
-    height: 1750px;
+    padding: 123px 0;
     background: #f5f5f8;
     background-image: url('../img/Screens.png');
     background-position: center 23rem;
@@ -268,7 +277,6 @@ header {
     text-align: center;
     .wrapper {
         display: inline-block;
-        margin-top: 135px;
     }
     .line {
         width: 50px;
@@ -278,17 +286,16 @@ header {
         margin: 45px;
     }
     .wrapper2 {
-        margin-top: 57rem;
+        margin-top: 64%;
         h2 {
             margin: 50px 0;
         }
         .search {
             position: relative;
-            left: -11rem;
+            display: inline-block;
             input {
                 border: 1px solid #cbcbce;
                 border-radius: 24px;
-                position: absolute;
                 width: 22rem;
                 height: 51px;
                 background: transparent;
@@ -302,7 +309,7 @@ header {
                 background: #6fc754;
                 border-radius: 24px;
                 position: absolute;
-                left: 57rem;
+                right: 1%;
                 height: 40px;
                 top: 5px;
                 width: 9rem;
@@ -319,21 +326,22 @@ header {
                 }
             }
         }
-        p {
+        .download {
             margin: 10rem 0 1rem 0;
         }
     }
 }
 
 #slider {
-    height: 626px;
+    padding: 3rem 0;
 }
 
 #your_plan {
     background: #f4f4f5;
-    height: 900px;
+    padding: 12% 0;
     h2 {
         margin-bottom: 4rem;
+        width: 24rem;
     }
     .plan-left {
         margin-top: 200px;
@@ -427,6 +435,7 @@ header {
                 border-radius: 24px;
                 padding: 8px 68px;
                 margin-top: 3rem;
+                margin-bottom: 4rem;
             }
         }
         .starter,
@@ -455,7 +464,6 @@ header {
             height: 51px;
             background: transparent;
             color: #000;
-            width: 406px;
             padding-left: 9px;
         }
         button {
@@ -496,6 +504,7 @@ footer {
     }
     .f_bottom {
         margin-top: 13rem;
+        margin-bottom: 1rem;
         a {
             text-decoration: underline;
         }

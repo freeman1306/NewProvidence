@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
-
+    <link rel="stylesheet" href="css/media_queries.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css" />
     <link rel="stylesheet" href="slick-slider/main.css">
     <link rel="stylesheet" href="css/style.css">
@@ -22,7 +22,53 @@
         <div class="container text-center">
             <div class="nav">
                 <div class="row">
-                    <div class="col-md-3 ">
+                    <div class="col-lg-3 ">
+                        <div class="nav_left">
+                            <div class="burger">
+                                <div class="wrapper">
+                                    <input id="hamb" type="checkbox">
+                                    <label for="#hamb"></label>
+                                    <div class="lines">
+                                        <div class="burger-line first"></div>
+                                        <div class="burger-line second"></div>
+                                        <div class="burger-line third"></div>
+                                    </div>
+
+                                    <nav class="main-menu">
+                                        <a href="#protect">Tour</a>
+                                        <a href="#interface">Feature</a>
+                                        <a href="#your_plan">Pricing</a>
+                                        <a href="#subscribe">Help</a>
+                                        <a href="#help">Contact</a>
+                                    </nav>
+                                </div>
+                            </div>
+                            <a href="#protect">Tour</a>
+                            <a href="#interface">Feature</a>
+                            <a href="#your_plan">Pricing</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="nav_center">
+                            <span>
+                                <b>NEW</b>PROVIDENCE</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="nav_right">
+                            <a href="#subscribe">Help</a>
+                            <a href="#help">Contact</a>
+                            <a class="button" href="">Get App</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="nav nav_adaptive">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4">
                         <div class="nav_left">
                             <div class="burger">
                                 <div class="wrapper">
@@ -44,26 +90,24 @@
                                     </nav>
                                 </div>
                             </div>
-                            <a href="">Tour</a>
-                            <a href="">Feature</a>
-                            <a href="">Pricing</a>
+
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4 col-sm-4 col-xs-4">
                         <div class="nav_center">
                             <span>
                                 <b>NEW</b>PROVIDENCE</span>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-4 col-xs-4">
                         <div class="nav_right">
-                            <a href="">Help</a>
-                            <a href="">Contact</a>
+
                             <a class="button" href="">Get App</a>
                         </div>
                     </div>
                 </div>
             </div>
+
 
             <div class="info">
                 <h1>What happens tomorrow?</h1>
@@ -79,22 +123,28 @@
         <div class="container">
             <div class="time">
                 <div class="row">
-                    <div class="col-md-6">
-                        <img src="img/clock.png" alt="picture">
-                        <span>Real-time all the time</span>
-                        <p>Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in you.</p>
-                        <br>
-                        <p>Just then her head struck against the roof of the hall: in fact she was now more than nine feet high,
-                            and she at once took up the little golden key and hurried off to the garden door.</p>
+                    <div class="col-lg-6">
+                        <div class="wrapper">
+                            <img src="img/clock.png" alt="picture">
+                            <span>Real-time all the time</span>
+                            <p>Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in
+                                you.
+                            </p>
+
+                            <p>Just then her head struck against the roof of the hall: in fact she was now more than nine feet
+                                high, and she at once took up the little golden key and hurried off to the garden door.</p>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <img src="img/alarm.png" alt="picture">
-                        <span>Adopt without any obstacles</span>
-                        <p>This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of that
-                            before!' she said.</p>
-                        <br>
-                        <p> This I have produced as a scantling of Jack’s great eloquence and the force of his reasoning upon
-                            such abstruse matters.</p>
+                    <div class="col-lg-6">
+                        <div class="wrapper">
+                            <img src="img/alarm.png" alt="picture">
+                            <span>Adopt without any obstacles</span>
+                            <p>This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of
+                                that before!' she said.</p>
+
+                            <p> This I have produced as a scantling of Jack’s great eloquence and the force of his reasoning
+                                upon such abstruse matters.</p>
+                            ZZZz </div>
                     </div>
                 </div>
             </div>
@@ -102,12 +152,11 @@
         <div class="your_day">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5 offset-md-7">
+                    <div class="col-lg-5 offset-lg-7 col-sm-12">
                         <div class="wrapper">
-                            <h2>Your day
-                                <br> is protected</h2>
+                            <h2>Your day is protected</h2>
                             <p>There have not been any since we have lived here, said my mother. </p>
-                            <br>
+
                             <p>We thought - Mr. Copperfield thought - it was quite a large rookery; but the nests were very
                                 old ones, and the birds have deserted them a long while.</p>
                             <div class="buttons">
@@ -126,16 +175,15 @@
         <div class="we_are">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-lg-5 col-md-12 col-sm-12">
                         <div class="wrapper">
-                            <h2>We are almost
-                                <br> everywhere
+                            <h2>We are almost everywhere
                             </h2>
                             <p>Now the races of these two have been for some ages utterly extinct, and besides to discourse
-                                any further of them would not be at all to my purpose.
-                                <br>
-                                <br> Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed
-                                in you.
+                                any further of them would not be at all to my purpose.</p>
+
+                            <p> Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in
+                                you.
                             </p>
                             <small>
                                 <b>PARTNERS</b>
@@ -152,30 +200,35 @@
         </div>
     </section>
     <section id="interface">
-        <div class="wrapper">
-            <h2>Beautyful Interface</h2>
-            <div class="line"></div>
-            <p>
-                <small> LANDING SCREEN</small>
-            </p>
-        </div>
-
-        <div class="wrapper2">
-            <p>
-                <small>
-                    <b>NEW</b>PROVIDENCE</small>
-            </p>
-            <h2>GET IT TO YOUR SMARTPHONE</h2>
-            <div class="search">
-                <input type="text" placeholder="denis@getcraftwork.com">
-                <button>
-                    <span>Send Invite</span>
-                </button>
+        <div class="content">
+            <div class="wrapper">
+                <h2>Beautyful Interface</h2>
+                <div class="line"></div>
+                <p>
+                    <small> LANDING SCREEN</small>
+                </p>
             </div>
-            <p>
-                <small>OR DOWNLOAD FROM</small>
-            </p>
-            <img src="img/Apple Logo.png" alt="picture ">
+
+            <div class="wrapper2">
+                <p>
+                    <small>
+                        <b>NEW</b>PROVIDENCE</small>
+                </p>
+                <h2>GET IT TO YOUR SMARTPHONE</h2>
+                <div class="search">
+                    <input type="text" placeholder="denis@getcraftwork.com">
+                    <button>
+                        <span>Send Invite</span>
+                    </button>
+                </div>
+
+                <div class="download">
+                    <p>
+                        <small>OR DOWNLOAD FROM</small>
+                    </p>
+                    <img src="img/Apple Logo.png" alt="picture ">
+                </div>
+            </div>
         </div>
 
     </section>
@@ -214,10 +267,9 @@
     <section id="your_plan">
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-lg-5 col-md-12">
                     <div class="plan-left">
-                        <h2>Choose your
-                            <br> perfect plan</h2>
+                        <h2>Choose your perfect plan</h2>
                         <small>
                             <b>YOU ARE</b>
                         </small>
@@ -238,10 +290,10 @@
 
                     </div>
                 </div>
-                <div class="col-md-7">
+                <div class="col-lg-7 col-md-12">
                     <div class="plan-right">
                         <div class="row">
-                            <div class="col-md p-0">
+                            <div class="col-lg col-md p-0">
                                 <div class="starter">
                                     <div class="head">Starter</div>
                                     <small>
@@ -250,11 +302,13 @@
                                     <p>Build your schedule
                                         <br> every day</p>
                                     <span>Unlimeted events</span>
+                                    <br>
                                     <span>Connect Dropbox & Evernote</span>
+                                    <br>
                                     <button>Get started</button>
                                 </div>
                             </div>
-                            <div class="col-md p-0">
+                            <div class="col-lg col-md p-0">
                                 <div class="pro">
                                     <div class="head">
                                         Pro
@@ -265,7 +319,9 @@
                                     <p>Make your life
                                         <br> better</p>
                                     <span>Unlimeted events</span>
+                                    <br>
                                     <span>Connect Dropbox & Evernote</span>
+                                    <br>
                                     <span>Personal Assistant</span>
                                     <br>
                                     <button>Make me a Pro</button>
@@ -290,20 +346,20 @@
             <small>We promise to never spam you</small>
         </div>
     </section>
-    <footer>
+    <footer id="help">
 
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <span>
                         <b>NEW</b>PROVIDENCE</span>
                     <p>It was some time before he obtained any answer, and the reply, when made, was unpropitious.</p>
-                    <img src="img/Apple Logo.png" alt="picture">
+                    <img class="download" src="img/Apple Logo.png" alt="picture">
                     <div class="social"></div>
                 </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-4">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="row mod_for_s">
+                        <div class="col-lg-4 col-md-4 col-sm-4">
                             <small>
                                 <b>LEARN MORE</b>
                             </small>
@@ -323,7 +379,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-4 col-sm-4">
                             <small>
                                 <b>ABOUT US</b>
                             </small>
@@ -343,7 +399,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-4 col-sm-4">
                             <small>
                                 <b>SUPPORT</b>
                             </small>
@@ -368,13 +424,13 @@
             </div>
             <div class="f_bottom">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-7 col-sm-7">
                         <div class="visit">
                             For more freebies visit:
                             <a href="">http://getcraftwork.com</a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-5 col-sm-5">
                         <img src="img/Made with Love by.png" alt="picture">
                     </div>
                 </div>
@@ -393,6 +449,7 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script>
 
     <script src="slick-slider/main.js"></script>
+
 
 
 </body>

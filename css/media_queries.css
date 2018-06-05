@@ -1,0 +1,78 @@
+@media only screen and (max-width: 992px) {
+    .btn_play {
+        box-shadow: 0 0 21px blue;
+    }
+    #your_plan h2 {
+        width: 100% !important;
+    }
+    #your_plan .plan-left {
+        text-align: center;
+    }
+    #your_plan .plan-left .switcher {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #your_plan .plan-left {
+        margin-top: 0 !important;
+    }
+    header .nav {
+        display: none;
+    }
+    header .nav_adaptive {
+        display: block !important;
+        line-height: 1rem;
+    }
+    header .nav_adaptive .nav_left .burger {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header .nav_adaptive .nav_right .button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #protect .your_day .wrapper {
+        margin-top: 8rem !important;
+    }
+    header {
+        background-image: url('../img/Background_adaptive.png') !important;
+    }
+    header .info p {
+        color: #5f6165 !important;
+        text-shadow: 2px 2px 4px white;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    footer .download {
+        float: right;
+        margin-top: -8rem;
+    }
+    .mod_for_s {
+        padding-left: 2rem;
+        margin-top: 3rem;
+    }
+    header .nav {
+        display: none;
+    }
+    header .nav_adaptive {
+        display: block !important;
+        line-height: 1rem;
+    }
+    header .nav_adaptive .nav_left .burger {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header .nav_adaptive .nav_right .button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #protect .your_day .wrapper {
+        margin-top: 8rem;
+    }
+    header .info p {
+        color: #5f6165 !important;
+        text-shadow: 2px 2px 4px white;
+        font-size: 1.2rem;
+    }
+}
