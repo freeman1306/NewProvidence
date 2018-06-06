@@ -241,7 +241,6 @@ header {
         height: 51px;
         background: transparent;
         color: #000;
-        width: 406px;
         padding-left: 9px; }
       #interface .wrapper2 .search button {
         border: 0;
@@ -374,7 +373,6 @@ header {
     margin-bottom: 1rem; }
     #subscribe .subscribe input {
       border: 0;
-      width: 22rem;
       height: 51px;
       background: transparent;
       color: #000;
