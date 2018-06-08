@@ -8,6 +8,13 @@ body p {
   font-size: 20px; }
 body h2 {
   font-size: 45px; }
+body :active,
+body :hover,
+body :focus {
+  outline: 0;
+  outline-offset: 0; }
+body button {
+  cursor: pointer; }
 
 header {
   padding-bottom: 34rem;
@@ -264,6 +271,9 @@ header {
           left: 7rem; }
     #interface .wrapper2 .download {
       margin: 10rem 0 1rem 0; }
+      #interface .wrapper2 .download button {
+        background-color: transparent;
+        border: 0; }
 
 #slider {
   padding: 3rem 0; }
@@ -390,27 +400,28 @@ header {
     display: block;
     color: #8c8f94; }
 
-footer {
-  height: 464px; }
-  footer p {
-    font-size: 14px;
-    margin: 2rem 0;
-    width: 17rem; }
-  footer ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 1rem; }
-    footer ul li {
-      margin-bottom: 6px; }
-    footer ul a {
-      text-decoration: none;
-      color: #8c8f94; }
-  footer .f_bottom {
-    margin-top: 13rem;
-    margin-bottom: 1rem; }
-    footer .f_bottom a {
-      text-decoration: underline; }
-    footer .f_bottom img {
-      float: right; }
+footer button {
+  background-color: transparent;
+  border: 0; }
+footer p {
+  font-size: 14px;
+  margin: 2rem 0;
+  width: 17rem; }
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem; }
+  footer ul li {
+    margin-bottom: 6px; }
+  footer ul a {
+    text-decoration: none;
+    color: #8c8f94; }
+footer .f_bottom {
+  margin-top: 13rem;
+  margin-bottom: 1rem; }
+  footer .f_bottom a {
+    text-decoration: underline; }
+  footer .f_bottom img {
+    float: right; }
 
 /*# sourceMappingURL=style.css.map */
